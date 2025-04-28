@@ -59,16 +59,27 @@ Follow these simple steps to get the project running locally:
 # 📁 Project Structure Overview
    GDG_Quiz_Game/
 ├── public/
+
 │   └── index.html
+
 ├── src/
+
 │   ├── components/
+
 │   ├── App.jsx
+
 │   ├── index.js
+
 │   └── styles/
+
 ├── package.json
+
 ├── tailwind.config.js
+
 ├── vite.config.ts
+
 ├── tsconfig.json
+
 └── README.md
 
 1. src/components/ ➔ Contains all UI components (QuizPage, ResultPage, WelcomePage, ProgressBar, etc.)
