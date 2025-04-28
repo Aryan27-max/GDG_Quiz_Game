@@ -89,7 +89,7 @@ Joining GDG will empower me to polish my Flutter development skills, deepen my o
 
 ---
 
-## 🚀 Thank you for reviewing my project and considering my application!
+# 🚀 Thank you for reviewing my project and considering my application!
 
 
 
