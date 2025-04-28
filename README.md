@@ -3,11 +3,10 @@
 ---
 
 > **Note to GDG Interview Team**  
-> I have pushed my limits to complete this project under a tight timeline. I would be honored if given the opportunity to join the GDG Club.  
-> I have previously contributed to open source via GSOC 2025 through PRs in the AOOSIE (Resonate) repository.  
-> Being a part of GDG will help me polish my Flutter and full-stack skills and strengthen my journey towards GSOC 2026 and broader Google Open Source Community involvement.  
-> Thank you for your consideration!
-
+I have pushed my limits to complete this project under a tight timeline. I would be honored if given the opportunity to join the GDG Club.
+I have previously contributed to open source via GSOC 2025 through PRs in the AOOSIE (Resonate) repository.
+Being a part of GDG will help me polish my Flutter and full-stack skills and strengthen my journey towards GSOC 2026 and broader Google Open Source Community involvement.
+Thank you for your consideration!
 ---
 
 ## 📖 Project Brief
@@ -21,57 +20,44 @@ It is an **interactive quiz game** built with modern web technologies to test an
 
 | Technology | Purpose |
 |:-----------|:--------|
-| **React.js** | Core front-end framework to build the interactive UI components. |
-| **Vite** | Ultra-fast build tool used for project scaffolding, hot reload during development, and optimized production build. |
-| **TypeScript** | Adds static typing to JavaScript ensuring better scalability and fewer runtime errors. |
-| **TailwindCSS** | For efficient and responsive styling without writing traditional CSS from scratch. |
-| **Framer Motion** | Used for animations and smooth transitions within the app. |
-| **Canvas-Confetti** | Library used to create interactive celebratory effects after completing the quiz. |
-| **React-Slick** | Lightweight carousel/slider component used wherever needed. |
-| **ESLint** | Linting tool to ensure code quality and consistency across the project. |
+| **React.js** | Core front-end library to build interactive UI components. |
+| **Vite** | Ultra-fast build tool used for project setup, fast refresh, and optimized production builds. |
+| **TypeScript** | Provides type safety, making the codebase more scalable and maintainable. |
+| **TailwindCSS** | Utility-first CSS framework for rapid and responsive UI styling. |
+| **Framer Motion** | Smooth animations and transitions for better user experience. |
+| **Canvas-Confetti** | Beautiful confetti effects on quiz completion for enhanced interactivity. |
+| **React-Slick** | A carousel/slider library integrated for responsive components. |
+| **ESLint** | Ensures code consistency, style, and prevents bugs through linting rules. |
 
-> **Local Environment:**  
-> Built and tested on **VS Code** with **Node.js** runtime and **npm** package manager.
+🖥 Built and tested using **VS Code** on a **Node.js** environment with **npm** package manager.
 
 ---
 
 ## 🧠 How to Clone and Run This Quiz App
 
-Follow these simple steps:
+Follow these simple steps to get the project running locally:
 
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/Aryan27-max/GDG_Quiz_Game.git
-Navigate into the Project Directory
+2. **Navigate into the Project Directory**
+   ```bash
+   cd GDG_Quiz_Game
+3. **Install the Required Dependencies**
+   ```bssh
+   npm install
+4. **Start the Local Development Server**
+   ```bash
+   npm run dev
+5. **View it on Browser**
+   Open your browser and go to:
+   http://localhost:5173
 
-bash
-Copy
-Edit
-cd GDG_Quiz_Game
-Install Dependencies
+6. **Congratulations! 🎉**
+   Start taking the quiz!
 
-bash
-Copy
-Edit
-npm install
-Run the Project Locally
-
-bash
-Copy
-Edit
-npm run dev
-View the App
-
-Open your browser and go to:
-http://localhost:5173
-
-Start Playing the Quiz! 🎉
-
-📌 Project Structure Overview
-pgsql
-Copy
-Edit
-GDG_Quiz_Game/
+# 📁 Project Structure Overview
+   GDG_Quiz_Game/
 ├── public/
 │   └── index.html
 ├── src/
@@ -82,39 +68,28 @@ GDG_Quiz_Game/
 ├── package.json
 ├── tailwind.config.js
 ├── vite.config.ts
-└── tsconfig.json
-src/components/ ➔ Contains reusable UI components for Quiz, ResultPage, etc.
+├── tsconfig.json
+└── README.md
 
-public/ ➔ Contains the HTML template.
+1. src/components/ ➔ Contains all UI components (QuizPage, ResultPage, WelcomePage, ProgressBar, etc.)
 
-styles/ ➔ Styling files.
+2. public/ ➔ Static files and the base HTML template.
 
-vite.config.ts ➔ Configuration file for Vite.
+3. vite.config.ts ➔ Vite configuration for build and development server.
 
-package.json ➔ Manages all project dependencies and scripts.
+4. tailwind.config.js ➔ Tailwind CSS configuration.
 
-💬 Final Note
-I am genuinely excited about opportunities like GDG because it gives motivated learners like me a platform to grow, connect with the community, and contribute meaningfully to open source.
-I look forward to potentially becoming a part of GDG and taking my skills to a global level.
+5. package.json ➔ All dependencies, scripts, and metadata of the project.
 
-🚀 Thank you for reviewing my project!
-yaml
-Copy
-Edit
+# 🎯 Final Note
+---
+
+This project demonstrates my passion, dedication, and eagerness to learn and contribute actively to communities like GDG.
+Joining GDG will empower me to polish my Flutter development skills, deepen my open-source contributions, and prepare stronger for GSOC 2026 and global tech initiatives.
 
 ---
 
-✅ **You can directly paste this into your `README.md` file**.  
-✅ It will render properly on GitHub in a clean and professional format.
-
----
-
-If you want, I can also quickly design a version with some colorful **badges** (React / Vite / Tailwind) on the top to make it even more attractive? 🚀  
-Would you like me to? 🎯✨ (Takes 2 mins!)
-
-
-
-
+## 🚀 Thank you for reviewing my project and considering my application!
 
 
 
